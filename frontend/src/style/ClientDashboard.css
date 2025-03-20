@@ -1,0 +1,74 @@
+.dashboard-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #00796b;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
+  .logout-btn {
+    background: red;
+    border: none;
+    color: white;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .dashboard-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .stats-section,
+  .voter-section {
+    width: 40%;
+    padding: 15px;
+    background: #f1f1f1;
+    border-radius: 5px;
+  }
+  
+  .register-card {
+    width: 50%;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .register-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .form-group input {
+    width: 48%;
+  }
+  
+  input, button {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    background: #00796b;
+    color: white;
+    cursor: pointer;
+    border: none;
+  }
+  
